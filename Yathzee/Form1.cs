@@ -707,6 +707,10 @@ namespace Yathzee
             {
                 total += Yathzee;
             }
+            if (isChance == true)
+            {
+                total += Change;
+            }
             totalDown.Text = total.ToString();
             CheckGameOver();
         }
